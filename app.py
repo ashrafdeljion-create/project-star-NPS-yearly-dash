@@ -98,6 +98,13 @@ if uploaded_file is not None:
                     ("Q5a. Others; specify", "Q5A_2_flag"),
                 ]
 
+                q6_items = [
+                    ("FICA, outstanding documents relating to your account", "Q6_code_1"),
+                    ("A specific product, e.g. such as Instant Solutions", "Q6_code_2"),
+                    ("General enquiries (e.g. account, card & cheque-related)", "Q6_code_3"),
+                    ("Don't know / not sure", "Q6_code_4")
+                ]
+
                 pref_channel_items = [
                     ("Branch", 1), ("Contact Centre", 2), ("Online Banking", 3), ("FNB Business Banking App", 4),
                     ("Business Manager at the branch", 5), ("Business/RM Manager", 6), ("Secure chat Help note", 7), ("None of the above", 8)
